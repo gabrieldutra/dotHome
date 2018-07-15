@@ -1,0 +1,9 @@
+entity Data {
+	description String required,
+    value Double required,
+    createdAt ZonedDateTime
+}
+
+paginate Data with pagination
+
+dto * with mapstruct
